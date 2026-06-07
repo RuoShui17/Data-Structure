@@ -1,0 +1,3 @@
+﻿  Test.c
+D:\CPP_Programs\H20260607_3\H20260607_3\Test.c(46,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  H20260607_3.vcxproj -> D:\CPP_Programs\H20260607_3\x64\Debug\H20260607_3.exe
