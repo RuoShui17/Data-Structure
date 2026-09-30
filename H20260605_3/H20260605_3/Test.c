@@ -1,8 +1,8 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 
-//����һ���������飬ʵ��һ�������������������������ֵ�˳��
-//ʹ�����������е�����λ�������ǰ�벿�֣�����ż��λ������ĺ�벿��
+//输入一个整数数组，实现一个函数，来调整该数组中数字的顺序
+//使得数组中所有的奇数位于数组的前半部分，所有偶数位于数组的后半部分
 
 void swap_arr(int arr[], int sz)
 {
@@ -10,11 +10,11 @@ void swap_arr(int arr[], int sz)
 	int right = sz - 1;
 	while (left < right)
 	{
-		while (left < right && arr[left] % 2 == 1)
+		while (left < right && arr[left] % 2 != 0)   // 奇数：继续后移
 		{
 			left++;
 		}
-		while (left < right && arr[right] % 2 == 0)
+		while (left < right && arr[right] % 2 == 0)  // 偶数：继续前移
 		{
 			right--;
 		}
