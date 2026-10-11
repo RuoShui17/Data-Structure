@@ -1,5 +1,5 @@
 ﻿#include "DCList.h"
-
+//双向循环链表
 // 链表初始化
 DCListNode* DCListInit()
 {
