@@ -25,7 +25,7 @@ void reorderList(struct ListNode* head)
 		fast = fast->next->next;
 	}
 
-	struct ListNode* cur = slow;
+	struct ListNode* cur =  slow->next;
 	slow->next = NULL;
 
 	struct ListNode* newhead = NULL;
