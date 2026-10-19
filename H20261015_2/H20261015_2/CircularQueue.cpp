@@ -38,7 +38,7 @@ bool myCircularQueueDeQueue(MyCircularQueue* obj)
 	}
 	obj->front++;
 	obj->front %= obj->N;
-	return false;
+	return true;
 }
 
 int myCircularQueueFront(MyCircularQueue* obj)
