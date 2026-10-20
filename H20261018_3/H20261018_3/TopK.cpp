@@ -39,6 +39,26 @@ void AdjustDown(int* a, int n, int parent)
     }
 }
 
+void CreateNDate() { 
+    // 造数据⼀堆随机数据⽂件中，⽅便测试
+    int n = 100000; 
+    srand(time(0)); 
+    const char* file = "data.txt";     
+    FILE* fin = fopen(file, "w");     
+    if (fin == NULL) { 
+        perror("fopen error"); 
+        return; 
+    } 
+ 
+    for (int i = 0; i < n; ++i) { 
+        int x = (rand() + i) % 1000000; 
+        fprintf(fin, "%d\n", x); 
+    } 
+ 
+    fclose(fin); 
+} 
+
+
 void topk() {
     // 1. 获取用户想要找的前 K 个数
     printf("请输入k：>");
