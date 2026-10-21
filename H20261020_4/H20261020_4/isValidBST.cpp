@@ -6,7 +6,6 @@
 // 结点出现的顺序是有序的，我们只需要跟上⼀个结点的值⽐较，
 // 如果上⼀个结点的值 >= 当前结点的值，则说明不是搜索⼆叉树
 
-typedef char BTDataType;
 struct TreeNode* prev = NULL;
 
 struct TreeNode {
