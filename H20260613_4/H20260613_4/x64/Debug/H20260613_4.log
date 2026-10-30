@@ -1,4 +1,0 @@
-﻿  Test.c
-D:\CPP_Programs\H20260613_4\H20260613_4\Test.c(19,2): warning C4047: “return”:“char *”与“int”的间接级别不同
-D:\CPP_Programs\H20260613_4\H20260613_4\Test.c(26,6): warning C4047: “初始化”:“int”与“char *”的间接级别不同
-  H20260613_4.vcxproj -> D:\CPP_Programs\H20260613_4\x64\Debug\H20260613_4.exe

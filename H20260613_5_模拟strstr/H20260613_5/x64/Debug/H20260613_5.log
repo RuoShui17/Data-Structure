@@ -1,0 +1,5 @@
+﻿  Test.c
+D:\CPP_Programs\H20260613_5\H20260613_5\Test.c(11,3): warning C4090: “return”: 不同的“const”限定符
+D:\CPP_Programs\H20260613_5\H20260613_5\Test.c(16,6): warning C4090: “=”: 不同的“const”限定符
+D:\CPP_Programs\H20260613_5\H20260613_5\Test.c(8,8): warning C4090: “初始化”: 不同的“const”限定符
+  H20260613_5.vcxproj -> D:\CPP_Programs\H20260613_5\x64\Debug\H20260613_5.exe

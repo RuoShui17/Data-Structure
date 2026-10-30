@@ -1,4 +1,0 @@
-﻿  Test.c
-D:\CPP_Programs\H20260613_1\H20260613_1\Test.c(43,11): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
-D:\CPP_Programs\H20260613_1\H20260613_1\Test.c(38,8): warning C4090: “初始化”: 不同的“const”限定符
-  H20260613_1.vcxproj -> D:\CPP_Programs\H20260613_1\x64\Debug\H20260613_1.exe
